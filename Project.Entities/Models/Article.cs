@@ -14,7 +14,7 @@ namespace Project.Entities.Models
 
         public int? CategoryID { get; set; }
 
-        // Relational Properties
+        // Relational Properties,
 
         public virtual Author Author { get; set; }
 
